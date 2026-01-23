@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+project1_env/
+venv/
+env/
+ENV/
+
+# Log files
+logs/*.logs
+
+# Keep the logs directory structure
+!logs/.gitkeep
+
+# Data files (if you don't want to track large CSV files)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.json
+data/processed/*.parquet
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
