@@ -1,0 +1,10 @@
+2026-01-27 08:15:58,873 - INFO -  Log file created: pipeline_20260127_081548.log
+2026-01-27 08:15:58,874 - ERROR - 
+ FILE NOT FOUND: nonexistent.csv
+ EXPECTED LOCATION: 
+ Full path: nonexistent.csv
+
+  Please check:
+  1. File exists in the correct folder
+  2. File name spelling is correct
+  3. File extension is .csv

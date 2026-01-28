@@ -1,0 +1,30 @@
+2026-01-27 09:13:21,384 - INFO -  Log file created: pipeline_20260127_091321.log
+2026-01-27 09:13:21,384 - INFO - Testing save_data module
+2026-01-27 09:13:21,384 - INFO - ============================================================
+2026-01-27 09:13:21,385 - INFO - Loading CSV: fifa21 raw data v2.csv
+2026-01-27 09:13:21,620 - INFO - ✅ Loaded 18,979 rows × 77 columns
+2026-01-27 09:13:21,621 - INFO - Starting transformation pipeline----
+2026-01-27 09:13:21,621 - INFO - 
+ - Cleaning column names---
+2026-01-27 09:13:21,807 - INFO - ====Transformation Complete!====
+2026-01-27 09:13:21,808 - INFO - 
+ Saving CSV file...
+2026-01-27 09:13:21,809 - INFO - 
+ Saving cleaned data in 4 format(s)...
+2026-01-27 09:13:21,809 - INFO - ==================================================
+2026-01-27 09:13:22,126 - INFO -  CSV saved:c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.csv
+2026-01-27 09:13:41,558 - INFO -  Excel saved:c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.xlsx
+2026-01-27 09:13:41,888 - INFO -  JSON saved: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.json
+2026-01-27 09:13:42,046 - INFO -  Parquet saved: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.parquet
+2026-01-27 09:13:42,047 - INFO - ============================================================
+2026-01-27 09:13:42,047 - INFO - Saved 4 file(s) successfully!
+2026-01-27 09:13:42,047 - INFO -    Total size: 18,979 rows × 73 columns
+2026-01-27 09:13:42,067 - INFO - Summary stats saved to: c:\Users\Admin\Desktop\simple_project1\data\processed\data_summary.txt
+2026-01-27 09:13:42,067 - INFO - 
+ All files saved successfully!
+2026-01-27 09:13:42,067 - INFO - 
+Saved files:
+2026-01-27 09:13:42,068 - INFO -   • CSV: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.csv (7.56 MB)
+2026-01-27 09:13:42,068 - INFO -   • EXCEL: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.xlsx (6.88 MB)
+2026-01-27 09:13:42,068 - INFO -   • JSON: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.json (30.25 MB)
+2026-01-27 09:13:42,068 - INFO -   • PARQUET: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.parquet (2.38 MB)

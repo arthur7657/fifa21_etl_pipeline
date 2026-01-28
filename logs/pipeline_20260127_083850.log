@@ -1,0 +1,12 @@
+2026-01-27 08:38:50,288 - INFO -  Log file created: pipeline_20260127_083850.log
+2026-01-27 08:38:50,289 - ERROR - 
+ FILE NOT FOUND: nonexistent.csv
+ EXPECTED LOCATION: 
+ Full path: nonexistent.csv
+
+  Please check:
+  1. File exists in the correct folder
+  2. File name spelling is correct
+  3. File extension is .csv
+2026-01-27 08:38:50,290 - INFO - Loading CSV: fifa21 raw data v2.csv
+2026-01-27 08:38:50,477 - INFO - ✅ Loaded 18,979 rows × 77 columns

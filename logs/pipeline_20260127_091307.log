@@ -1,0 +1,26 @@
+2026-01-27 09:13:07,706 - INFO -  Log file created: pipeline_20260127_091307.log
+2026-01-27 09:13:07,706 - INFO - Test transformation module
+2026-01-27 09:13:07,706 - INFO - ============================================================
+2026-01-27 09:13:07,707 - INFO - 
+Script dir:c:\Users\Admin\Desktop\simple_project1\eti_pipeline\src\transform
+2026-01-27 09:13:07,707 - INFO - Project root:c:\Users\Admin\Desktop\simple_project1
+2026-01-27 09:13:07,707 - INFO - File location:c:\Users\Admin\Desktop\simple_project1\data\raw\fifa21 raw data v2.csv
+2026-01-27 09:13:07,707 - INFO - File exists?True
+
+2026-01-27 09:13:07,933 - INFO - Input shape:(18979, 77)
+2026-01-27 09:13:07,934 - INFO - Starting transformation pipeline----
+2026-01-27 09:13:07,934 - INFO - 
+ - Cleaning column names---
+2026-01-27 09:13:08,134 - INFO - ====Transformation Complete!====
+2026-01-27 09:13:08,134 - INFO - 
+Output shape:(18979, 73)
+2026-01-27 09:13:08,136 - INFO - 
+Transformed columns: ['ID', 'Name', 'LongName', 'photoUrl', 'playerUrl', 'Nationality', 'Age', '↓OVA', 'POT', 'Club']
+2026-01-27 09:13:08,137 - INFO - 
+Sample of  transformed data:
+2026-01-27 09:13:08,137 - INFO -        ID               Name                      LongName                                          photoUrl  ... DRI DEF  PHY   Hits
+0  158023           L. Messi                  Lionel Messi  https://cdn.sofifa.com/players/158/023/21_60.png  ...  95  38   65  771.0
+1   20801  Cristiano Ronaldo  C. Ronaldo dos Santos Aveiro  https://cdn.sofifa.com/players/020/801/21_60.png  ...  89  35   77  562.0
+2  200389           J. Oblak                     Jan Oblak  https://cdn.sofifa.com/players/200/389/21_60.png  ...  90  52   90  150.0
+
+[3 rows x 73 columns]

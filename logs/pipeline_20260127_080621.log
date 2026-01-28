@@ -1,0 +1,60 @@
+2026-01-27 08:06:21,221 - INFO -  Log file created: pipeline_20260127_080621.log
+2026-01-27 08:06:21,222 - INFO - ============================================================
+2026-01-27 08:06:21,222 - INFO -  FIFA 21 Data Pipeline
+2026-01-27 08:06:21,222 - INFO - Started at: 2026-01-27 08:06:21
+2026-01-27 08:06:21,223 - INFO - Project root: c:\Users\Admin\Desktop\simple_project1
+2026-01-27 08:06:21,223 - INFO - Log file: logs/pipeline_2026-01-27_08-06-21.log
+2026-01-27 08:06:21,224 - INFO - ============================================================
+2026-01-27 08:06:21,224 - INFO - 
+ STEP 1: EXTRACT
+2026-01-27 08:06:21,224 - INFO - ============================================================
+2026-01-27 08:06:21,225 - INFO - 
+🔄 Extract: Loading data from: fifa21 raw data v2.csv
+2026-01-27 08:06:21,225 - INFO -  📂 Location: c:\Users\Admin\Desktop\simple_project1\eti_pipeline\src\extract\..\..\..\data\raw\fifa21 raw data v2.csv
+2026-01-27 08:06:21,225 - INFO - Loading CSV: fifa21 raw data v2.csv
+2026-01-27 08:06:21,425 - INFO - ✅ Loaded 18,979 rows × 77 columns
+2026-01-27 08:06:21,425 - INFO - ✅ Extraction complete!
+2026-01-27 08:06:21,425 - INFO - EXTRACTION COMPLETE
+2026-01-27 08:06:21,425 - INFO - 
+ STEP 2: TRANSFORM
+2026-01-27 08:06:21,426 - INFO - ============================================================
+2026-01-27 08:06:21,426 - INFO - Starting transformation pipeline----
+2026-01-27 08:06:21,426 - INFO - 
+ - Cleaning column names---
+2026-01-27 08:06:21,638 - INFO - ====Transformation Complete!====
+2026-01-27 08:06:21,638 - INFO - Transform complete!
+2026-01-27 08:06:21,638 - INFO -  Cleaned data : 18,979 rows * 73 columns
+2026-01-27 08:06:21,639 - INFO - 
+ STEP 3: LOAD
+2026-01-27 08:06:21,639 - INFO - ============================================================
+2026-01-27 08:06:21,640 - INFO - 
+ Saving cleaned data in 4 format(s)...
+2026-01-27 08:06:21,640 - INFO - ==================================================
+2026-01-27 08:06:21,927 - INFO -  CSV saved:c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.csv
+2026-01-27 08:06:43,033 - INFO -  Excel saved:c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.xlsx
+2026-01-27 08:06:43,258 - INFO -  JSON saved: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.json
+2026-01-27 08:06:43,814 - INFO -  Parquet saved: c:\Users\Admin\Desktop\simple_project1\data\processed\fifa_cleaned.parquet
+2026-01-27 08:06:43,814 - INFO - ============================================================
+2026-01-27 08:06:43,814 - INFO - Saved 4 file(s) successfully!
+2026-01-27 08:06:43,815 - INFO -    Total size: 18,979 rows × 73 columns
+2026-01-27 08:06:43,815 - INFO -  Load Complete!
+2026-01-27 08:06:43,815 - INFO - 
+------------------------------------------------------------
+2026-01-27 08:06:43,815 - INFO -  PIPELINE COMPLETED SUCCESSFULLY
+2026-01-27 08:06:43,815 - INFO - ============================================================
+2026-01-27 08:06:43,815 - INFO - 
+ Summary:
+2026-01-27 08:06:43,816 - INFO -   -input rows:18,979
+2026-01-27 08:06:43,816 - INFO -   -output rows:18,979
+2026-01-27 08:06:43,816 - INFO -   -column removed:4
+2026-01-27 08:06:43,816 - INFO -   -files created: 4
+2026-01-27 08:06:43,816 - INFO - 
+ Output Files:
+2026-01-27 08:06:43,817 - INFO -  -CSV:7.56 MB)
+2026-01-27 08:06:43,817 - INFO -  -EXCEL:6.88 MB)
+2026-01-27 08:06:43,817 - INFO -  -JSON:30.25 MB)
+2026-01-27 08:06:43,817 - INFO -  -PARQUET:2.38 MB)
+2026-01-27 08:06:43,818 - INFO - 
+------------------------------------------------------------
+2026-01-27 08:06:43,818 - INFO - Finished at :2026-01-27 08:06:43
+2026-01-27 08:06:43,818 - INFO - ------------------------------------------------------------

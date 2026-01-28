@@ -1,0 +1,19 @@
+2026-01-27 08:05:42,137 - INFO -  Log file created: pipeline_20260127_080542.log
+2026-01-27 08:05:42,137 - INFO - Testing Extract Module
+2026-01-27 08:05:42,137 - INFO - ==================================================
+2026-01-27 08:05:42,138 - INFO - 
+🔄 Extract: Loading data from: fifa21 raw data v2.csv
+2026-01-27 08:05:42,138 - INFO -  📂 Location: c:\Users\Admin\Desktop\simple_project1\eti_pipeline\src\extract\..\..\..\data\raw\fifa21 raw data v2.csv
+2026-01-27 08:05:42,138 - INFO - Loading CSV: fifa21 raw data v2.csv
+2026-01-27 08:05:42,479 - INFO - ✅ Loaded 18,979 rows × 77 columns
+2026-01-27 08:05:42,482 - INFO - ✅ Extraction complete!
+2026-01-27 08:05:42,482 - INFO - 
+First 5 rows:
+2026-01-27 08:05:42,482 - INFO -        ID               Name                      LongName                                          photoUrl  ... DRI DEF  PHY  Hits
+0  158023           L. Messi                  Lionel Messi  https://cdn.sofifa.com/players/158/023/21_60.png  ...  95  38   65   771
+1   20801  Cristiano Ronaldo  C. Ronaldo dos Santos Aveiro  https://cdn.sofifa.com/players/020/801/21_60.png  ...  89  35   77   562
+2  200389           J. Oblak                     Jan Oblak  https://cdn.sofifa.com/players/200/389/21_60.png  ...  90  52   90   150
+3  192985       K. De Bruyne               Kevin De Bruyne  https://cdn.sofifa.com/players/192/985/21_60.png  ...  88  64   78   207
+4  190871          Neymar Jr    Neymar da Silva Santos Jr.  https://cdn.sofifa.com/players/190/871/21_60.png  ...  94  36   59   595
+
+[5 rows x 77 columns]
